@@ -53,7 +53,7 @@ Array.from(document.links).forEach(function (link) {
 launchButton.addEventListener("click", function (event) {
   // we have absolute power over the DOM
   debugger;
-  modal.classList.remove("off");
+  modal.classList.remove("offfffff");
 });
 
 // 👉 TASK 4- Create a function to confirm the launch.
