@@ -21,7 +21,7 @@ launchButton.onclick = function (event) {
 //  C- element.addEventListener('click', callback)
 
 launchButton.addEventListener("click", function (event) {
-  console.log("using the eventListener");
+  //   console.log("using the eventListener");
 });
 
 launchButton.addEventListener("click", function (event) {
@@ -39,9 +39,9 @@ document.addEventListener("click", function (event) {
 
 Array.from(document.links).forEach(function (link) {
   link.addEventListener("click", function (event) {
-    console.log(
-      `disrupting the default behavior of "${event.target.textContent}"`
-    );
+    // console.log(
+    //   `disrupting the default behavior of "${event.target.textContent}"`
+    // );
     event.preventDefault();
   });
 });
