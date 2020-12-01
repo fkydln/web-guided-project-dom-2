@@ -59,6 +59,10 @@ launchButton.addEventListener("click", function (event) {
 // It should close the modal and display a success report.
 // Add it as a listener for clicks on the confirmation button.
 
+launchButton.addEventListener("click", function (event) {
+  successMessage.classList.remove("off");
+});
+
 // 👉 TASK 5- Create a function to cancel the launch.
 // It should close the modal and display a failure report.
 // Add it as a listener for clicks on the cancellation button.
