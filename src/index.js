@@ -12,6 +12,8 @@ const failureMessage = document.querySelector(".failure");
 // C- MODAL
 const modal = document.querySelector(".modal");
 
+debugger;
+
 // 👉 TASK 2- Demo handling click events on button#launchButton, using:
 //  A- HTML inside index.html
 //  B- The DOM's element.onclick attribute
@@ -40,11 +42,11 @@ const modal = document.querySelector(".modal");
 
 // 👉 TASK 8- [STRETCH] Create helper functions to make the code
 // more readable in tasks 3, 4, 5, 6
-function openModal() {}
+// function openModal() {}
 
-function closeModal() {}
+// function closeModal() {}
 
-function killReports() {}
+// function killReports() {}
 
 // 👉 TASK 9- [STRETCH] Using the mouseover event on 'document',
 // log to the console the X and Y coordinates
