@@ -71,6 +71,7 @@ confirmButton.addEventListener("click", function (event) {
 // Add it as a listener for clicks on the cancellation button.
 
 cancelButton.addEventListener("click", function (event) {
+  modal.classList.add("off");
   failureMessage.classList.remove("off");
 });
 
