@@ -16,20 +16,25 @@ const modal = document.querySelector(".modal");
 //  A- HTML inside index.html
 //  B- The DOM's element.onclick attribute
 launchButton.onclick = function (event) {
-  console.log("onclick attribute");
+  //   console.log("onclick attribute");
 };
 //  C- element.addEventListener('click', callback)
 
 launchButton.addEventListener("click", function (event) {
-  console.log("using the eventListener");
+  //   console.log("using the eventListener");
 });
 
 launchButton.addEventListener("click", function (event) {
-  console.log("using the eventListener AGAIN");
+  //   console.log("using the eventListener AGAIN");
 });
 
 document.addEventListener("click", function (event) {
   console.log("clicking on the document");
+  if (event.target === launchButton) {
+    console.log("you clicked the launch button");
+  } else {
+    console.log("you clicked somewhere else");
+  }
 });
 
 // 👉 TASK 3- Create a function that launches!
