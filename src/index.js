@@ -52,6 +52,7 @@ Array.from(document.links).forEach(function (link) {
 
 launchButton.addEventListener("cl1ck", function (event) {
   // we have absolute power over the DOM
+  debugger;
   modal.classList.remove("off");
 });
 
