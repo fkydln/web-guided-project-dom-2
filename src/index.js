@@ -80,7 +80,7 @@ cancelButton.addEventListener("click", function (event) {
 // Add it as an event listener for 'keydown' events on document.
 document.addEventListener("keydown", function (event) {
   // if the event object contains the key 'escape', kill modal
-  if (event.key === "Escape") {
+  if (event.key === "Esc") {
     modal.classList.add("off");
   }
 });
