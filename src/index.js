@@ -54,6 +54,7 @@ launchButton.addEventListener("click", function (event) {
   // we have absolute power over the DOM
   modal.classList.remove("off");
   successMessage.classList.add("off");
+  failureMessage.classList.add("off");
 });
 
 // 👉 TASK 4- Create a function to confirm the launch.
@@ -80,11 +81,11 @@ confirmButton.addEventListener("click", function (event) {
 
 // 👉 TASK 8- [STRETCH] Create helper functions to make the code
 // more readable in tasks 3, 4, 5, 6
-// function openModal() {}
+function openModal() {}
 
-// function closeModal() {}
+function closeModal() {}
 
-// function killReports() {}
+function killReports() {}
 
 // 👉 TASK 9- [STRETCH] Using the mouseover event on 'document',
 // log to the console the X and Y coordinates
