@@ -21,15 +21,15 @@ launchButton.onclick = function (event) {
 //  C- element.addEventListener('click', callback)
 
 launchButton.addEventListener("click", function (event) {
-  //   console.log("using the eventListener");
+  console.log("using the eventListener");
 });
 
 launchButton.addEventListener("click", function (event) {
-  //   console.log("using the eventListener AGAIN");
+  // console.log("using the eventListener AGAIN");
 });
 
 document.addEventListener("click", function (event) {
-  console.log("clicking on the document");
+  //   console.log("clicking on the document");
   if (event.target === launchButton) {
     console.log("you clicked the launch button");
   } else {
